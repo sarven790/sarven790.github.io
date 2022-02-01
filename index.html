@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel = "icon" href = "assets/images/s-logo.ico" type = "image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
@@ -19,6 +20,74 @@
     <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+	
+	<style>
+	
+		#profil{
+			
+				width:300px;
+				height: 300px
+			
+			}
+	
+		@media screen and (max-width:600px){
+		
+			#id1{
+			
+				width:50px;
+				
+				}
+			#id2{
+			
+				width:50px;
+				
+				}
+				
+			#id3{
+			
+				width:50px;
+				
+				}
+				
+			#profil{
+			
+				width:250px;
+				height: 250px;
+				margin-left: 55px; 
+			
+			}
+			
+			#resim{
+			
+				width: 375px;
+				height: 375px;
+				margin-right: 70px;
+				margin-bottom: -50px;
+				
+				
+			}
+			
+			#ortala{
+			
+				margin-right: 40px;
+			
+			}
+			
+			#ortala2{
+			
+			margin-left: 55px; 
+			
+			}
+			
+			#ortala3{
+			
+			margin-left: 85px; 
+			
+			}
+			
+			
+		}
+	</style>
 		
 	
 <!--
@@ -66,7 +135,7 @@ https://templatemo.com/tm-562-space-dynamic
               <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Bana Ulaşın</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
-                <span>Menu</span> 
+                <span>Menu</span>
             </a>
             <!-- ***** Menu End ***** -->
           </nav>
@@ -83,23 +152,23 @@ https://templatemo.com/tm-562-space-dynamic
           <div class="row ms-5">
             <div class="col-lg-6 align-self-center">
               <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">         
-                <h2>Bloğuma <span>Hoş Geldiniz</span></h2>						
+                <h2 id="ortala">Bloğuma <span>Hoş Geldiniz</span></h2>						
 			  </div>
-			  <h2><span class="animate" style="color:black;"></span></h2>
+			  <h2><span id="ortala2" class="animate" style="color:black;"></span></h2>
 			  <br/>
 			  <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">      
-			  <div class="row">
+			  <div id="ortala3" class="row">
 			
-				<div class="col-xs-6 col-md-1 ms-8"><a href="https://www.facebook.com/sarven.y.say/" target="_blank"><image src="assets/images/facebook.png" style="width:40px; height:40px;"></a></div>
-				<div class="col-xs-6 col-md-1"><a href="https://www.linkedin.com/in/sarven-yan%C4%B1k-529233171/" target="_blank"><image src="assets/images/linkedin.png" style="width:40px; height:40px;"></a></div>
-				<div class="col-xs-6 col-md-1"><a href="https://github.com/sarven790" target="_blank"><image src="assets/images/github.png" style="width:40px; height:40px;"></a></div>
+				<div class="col-xs-6 col-md-1 ms-8" id="id1"><a href="https://www.facebook.com/sarven.y.say/" target="_blank"><image src="assets/images/facebook.png" style="width:40px; height:40px;"></a></div>
+				<div class="col-xs-6 col-md-1" id="id2"><a href="https://www.linkedin.com/in/sarven-yan%C4%B1k-529233171/" target="_blank"><image src="assets/images/linkedin.png" style="width:40px; height:40px;"></a></div>
+				<div class="col-xs-6 col-md-1" id="id3"><a href="https://github.com/sarven790" target="_blank"><image src="assets/images/github.png" style="width:40px; height:40px;"></a></div>
 			 
 			</div>        					
 			  </div>
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">			 
-                <img src="assets/images/banner-right-image.jpg" style="width:300px;height: 300px" alt="team meeting">
+                <img src="assets/images/banner-right-image.png" id="profil" class="img-fluid" alt="team meeting">
               </div>
             </div>
           </div>
@@ -113,7 +182,7 @@ https://templatemo.com/tm-562-space-dynamic
       <div class="row">
         <div class="col-lg-4">
           <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <img src="assets/images/about-left-image.png" alt="person graphic">
+            <img src="assets/images/about-left-image.png" id="resim" alt="person graphic">
           </div>
         </div>
         <div class="col-lg-8 align-self-center">
@@ -170,7 +239,7 @@ https://templatemo.com/tm-562-space-dynamic
     </div>
   </div>
 
-  <div id="services" class="our-services section">
+  <div id="services" class="our-services section ">
     <div class="container">
       <div class="row">
        <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">         
@@ -519,5 +588,5 @@ https://templatemo.com/tm-562-space-dynamic
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
 
-</body> 
+</body>
 </html>
